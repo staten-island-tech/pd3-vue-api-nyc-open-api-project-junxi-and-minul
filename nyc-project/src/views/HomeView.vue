@@ -1,8 +1,10 @@
+<template>
+  <div></div>
+</template>
+
 <script setup>
+import { ref, onMounted } from 'vue'
+const data = ref(``)
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style scoped></style>
