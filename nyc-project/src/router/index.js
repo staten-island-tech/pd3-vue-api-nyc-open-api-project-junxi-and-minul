@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import Chart from 'chart.js/auto'
 
 const link = 'https://data.cityofnewyork.us/resource/jb7j-dtam.json'
 
