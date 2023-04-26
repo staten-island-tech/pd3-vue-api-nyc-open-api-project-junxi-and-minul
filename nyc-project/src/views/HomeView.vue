@@ -4,9 +4,6 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-const data = ref(``)
-import TheWelcome from '../components/TheWelcome.vue'
-import { ref, onMounted } from 'vue'
 const dat = ref(``)
 async function getCauses() {
   let res = await fetch('https://data.cityofnewyork.us/resource/jb7j-dtam.json')
