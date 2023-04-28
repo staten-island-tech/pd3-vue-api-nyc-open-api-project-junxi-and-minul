@@ -1,4 +1,29 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
+
+<template>
+  <div>
+    <h1 class="header">NYC Causes of Death</h1>
+  </div>
+  <nav>
+    <RouterLink class="link-home" to="/">Home</RouterLink>
+    <RouterLink class="link-pie" to="/PieChart">Pie Chart</RouterLink>
+    <RouterLink class="link-bar" to="/">Bar Chart</RouterLink>
+  </nav>
+</template>
+
+<style scoped>
+.header {
+  font-size: 50px;
+}
+.link-home {
+  margin: 10px;
+}
+.link-pie {
+  margin: 10px;
+}
+.link-bar {
+  margin: 10px;
+}
+</style>
