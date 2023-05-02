@@ -4,13 +4,16 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <div>
+  <div>
     <h1 class="header">NYC Causes of Death</h1>
   </div>
   <nav>
     <RouterLink class="link-home" to="/">Home</RouterLink>
-    <RouterLink class="link-pie" to="/PieChart">Pie Chart</RouterLink>
-    <RouterLink class="link-bar" to="/">Bar Chart</RouterLink>
+    <RouterLink class="link-pie" to="/pieView">Pie Chart</RouterLink>
+    <RouterLink class="link-bar" to="/barView">Bar Chart</RouterLink>
   </nav>
+  <RouterView></RouterView>
+  </div>
 </template>
 
 <style scoped>
