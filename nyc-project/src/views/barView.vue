@@ -10,7 +10,7 @@ export default {
     return {
       chartData: {
         labels: ["Alzheimer's Disease", 'Viral Hepatitis', 'Septicemia'],
-        datasets: [{ label: ['how New Yorkers die (not obesity)'], data: [] }]
+        datasets: [{ label: ['leading cause of death for New Yorkers'], data: [] }]
       },
       chartOptions: {
         responsive: true,
